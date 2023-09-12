@@ -1,6 +1,11 @@
+html {
+  width: 100%;
+}
+
 body {
   font-family: "Montserrat", sans-serif;
   background: #e5e5e5;
+  width: 100%;
 }
 
 .wrapper {
@@ -29,22 +34,22 @@ aside {
 
 .contact-links {
   color: #ffffff;
-  font-size: 14px;
-  line-height: 24px;
+  font-size: 1rem;
+  line-height: 1.5rem;
 }
 
 .contact-links-specific {
   color: #ffffff;
   opacity: 0.5;
-  font-size: 14px;
-  line-height: 24px;
+  font-size: 1rem;
+  line-height: 1.5rem;
 }
 
 .contact-links-specific-number {
   color: #ffffff;
   opacity: 0.5;
-  font-size: 14px;
-  line-height: 24px;
+  font-size: 1rem;
+  line-height: 1.5rem;
   text-decoration: none;
 }
 .bold {
@@ -53,8 +58,8 @@ aside {
 
 .list-secondary {
   color: #fb6d3a;
-  font-size: 14px;
-  line-height: 24px;
+  font-size: 1rem;
+  line-height: 1.5rem;
   margin-left: 0;
   padding-left: 0;
   list-style-position: inside;
@@ -95,14 +100,14 @@ main {
 
 .job-title {
   font-weight: 700;
-  font-size: 14px;
-  line-height: 17px;
+  font-size: 1rem;
+  line-height: 1.2rem;
 }
 
 h1 {
   font-weight: 700;
-  font-size: 45px;
-  line-height: 55px;
+  font-size: 3rem;
+  line-height: 4rem;
 }
 
 .name-surname {
@@ -111,8 +116,8 @@ h1 {
 
 .description {
   font-weight: 400;
-  font-size: 14px;
-  line-height: 24px;
+  font-size: 1rem;
+  line-height: 1.5rem;
   color: #595959;
   margin-bottom: 40px;
 }
@@ -124,32 +129,32 @@ h1 {
 
 .list-primary {
   font-weight: 700;
-  font-size: 14px;
-  line-height: 24px;
+  font-size: 1rem;
+  line-height: 1.5rem;
   padding-left: 0;
   list-style-position: inside;
 }
 
 .list-primary-item {
   font-weight: 400;
-  font-size: 14px;
-  line-height: 24px;
+  font-size: 1rem;
+  line-height: 1.5rem;
   color: #595959;
   text-decoration: none;
 }
 
 .header-primary {
   font-weight: 700;
-  font-size: 22px;
-  line-height: 27px;
+  font-size: 1.5rem;
+  line-height: 1.6rem;
   margin-bottom: 12px;
   margin-top: 30px;
 }
 
 .job-name {
   font-weight: 700;
-  font-size: 16px;
-  line-height: 20px;
+  font-size: 1rem;
+  line-height: 1.4rem;
 }
 
 .highlight {
@@ -166,7 +171,7 @@ h1 {
 
 .job-list {
   font-weight: 400;
-  font-size: 14px;
+  font-size: 1rem;
   line-height: 24px;
   color: #595959;
   padding-left: 0;
@@ -182,12 +187,26 @@ h1 {
 
 .faculty-name {
   font-weight: 700;
-  font-size: 14px;
+  font-size: 1rem;
   line-height: 17px;
 }
 
 @media only screen and (max-width: 800px) {
+  .wrapper {
+    width: 100%;
+    flex-direction: column-reverse;
+    margin: 0;
+  }
+  aside {
+    width: 100%;
+  }
   h1 {
     font-size: 25px;
+  }
+  .job-name {
+    font-size: 0.65rem;
+  }
+  .job-date {
+    font-size: 10px;
   }
 }
